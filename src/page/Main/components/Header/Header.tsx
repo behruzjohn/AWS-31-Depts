@@ -24,7 +24,6 @@ function Header({ setAdmin, isAdmin }: Props) {
 
   const handleOk = () => {
     if (password) {
-      console.log(password, secretPassword);
       if (password === secretPassword) {
         message.success("O'zgaririshingiz mumkun!");
         setAdmin(true);
