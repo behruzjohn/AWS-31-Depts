@@ -41,8 +41,6 @@ function Header({ setAdmin, isAdmin }: Props) {
     setPassword("");
   };
 
-  console.log(isAdmin);
-
   return (
     <HeaderStyle>
       <div className="header">
